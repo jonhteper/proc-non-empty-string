@@ -1,0 +1,15 @@
+[package]
+name = "proc-non-empty-string"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "proc_non_empty_string"
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+
+[dev-dependencies]
+non-empty-string = "0.2.3"
